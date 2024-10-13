@@ -14,7 +14,7 @@ body{
     height:100vh;
     border:2px solid rgb(2, 113, 121);
     background-color:rgb(208, 252, 255);
-    padding: 20px;
+    padding: 20px 20px 20px 50px;
 }
 input{
     border:1px solid rgb(143, 222, 228);
@@ -27,6 +27,7 @@ input{
 .sub{
      display: flex;
      justify-content: space-around;
+     margin-left: -20px;
    
 }
 .sub input{
@@ -42,4 +43,5 @@ textarea{
     border:1px solid rgb(143, 222, 228);
     resize: none;
     outline: none;
+    margin-bottom:15px ;
     }
